@@ -9,7 +9,7 @@ A Python application to remove EXIF metadata from images with a user-friendly GU
 - Handles multiple image formats (.jpg, .jpeg, .png, .tiff).
 
 ## Installation:
-To install the application, download the `.deb` package and install it using `dpkg`:
+To install the application, download the [.deb package](https://github.com/shamith-perera/ExifRemover/releases/download/v1.0.0/exifremover.deb) and install it using `dpkg`:
 ```
 sudo dpkg -i exifremover.deb
 sudo apt-get install -f  # To resolve dependencies if needed
