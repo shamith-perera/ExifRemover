@@ -27,6 +27,11 @@ chmod +x Exif_Remover-x86_64.AppImage
 ./Exif_Remover-x86_64.AppImage
 ```
 
+### For Windows
+download and run the [.exe](https://github.com/shamith-perera/ExifRemover/releases/download/v1.0.0/exif_remover.exe) file
+
+
+
 Alternatively, you can clone this repository and run the application directly (requires Python 3.x, PyQt5, and Pillow):
 
 ```
