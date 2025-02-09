@@ -1,6 +1,8 @@
 # ExifRemover
 A Python application to remove EXIF metadata from images with a user-friendly GUI built using PyQt5.
 
+![image](https://github.com/user-attachments/assets/e614eebf-c605-4886-ba7b-a80febf3113d)
+
 ## Features:
 - Drag and drop support for adding images.
 - Option to rename files with random names.
@@ -9,7 +11,10 @@ A Python application to remove EXIF metadata from images with a user-friendly GU
 - Handles multiple image formats (.jpg, .jpeg, .png, .tiff).
 
 ## Installation:
-To install the application, download the [.deb package](https://github.com/shamith-perera/ExifRemover/releases/download/v1.0.0/exifremover.deb) and install it using `dpkg`:
+To install the application, 
+
+### For Linux 
+download the [.deb package](https://github.com/shamith-perera/ExifRemover/releases/download/v1.0.0/exifremover.deb) and install it using `dpkg`:
 ```
 sudo dpkg -i exifremover.deb
 sudo apt-get install -f  # To resolve dependencies if needed
