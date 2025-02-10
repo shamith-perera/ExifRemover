@@ -32,7 +32,7 @@ download and run the [.exe](https://github.com/shamith-perera/ExifRemover/releas
 
 
 
-Alternatively, you can clone this repository and run the application directly (requires Python 3.x, PyQt5, and Pillow):
+### Alternatively, you can clone this repository and run the application directly (requires Python 3.x, PyQt5, and Pillow):
 
 ```
 git clone https://github.com/shamith-perera/ExifRemover.git
