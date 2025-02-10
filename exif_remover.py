@@ -18,6 +18,7 @@ class ExifRemoverApp(QWidget):
 
     def initUI(self):
         self.setWindowTitle("EXIF Remover")
+        self.setWindowIcon(QIcon('icons/icon.ico'))
         self.setGeometry(300, 300, 500, 400)
         self.setStyleSheet("background-color: #f5f5f5;")
 
@@ -320,7 +321,6 @@ class WorkerThread(QThread):
 
 def main():
     app = QApplication(sys.argv)
-    app.setWindowIcon(QIcon('icons/icon.png'))
     ex = ExifRemoverApp()
     ex.show()
     sys.exit(app.exec_())
