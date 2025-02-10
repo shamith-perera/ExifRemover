@@ -7,6 +7,7 @@ from PyQt5.QtWidgets import (
 )
 from PyQt5.QtCore import Qt, QSettings, QThread, pyqtSignal
 from PIL import Image
+from PyQt5.QtGui import QIcon
 
 
 class ExifRemoverApp(QWidget):
@@ -319,6 +320,7 @@ class WorkerThread(QThread):
 
 def main():
     app = QApplication(sys.argv)
+    app.setWindowIcon(QIcon('icons/icon.png'))
     ex = ExifRemoverApp()
     ex.show()
     sys.exit(app.exec_())
