@@ -14,25 +14,26 @@ A Python application to remove EXIF metadata from images with a user-friendly GU
 To install the application, 
 
 ### For Linux 
-download the [.deb package](https://github.com/shamith-perera/ExifRemover/releases/download/v1.0.0/exifremover.deb) and install it using `dpkg`:
+download the [.deb package](https://github.com/shamith-perera/ExifRemover/releases/download/v1.0.0/exifremover.deb) and install it using `dpkg`(for Debian/Ubuntu-based distributions) :
 ```
 sudo dpkg -i exifremover.deb
 sudo apt-get install -f  # To resolve dependencies if needed
 ```
 #### or
 
-download the [AppImage](https://github.com/shamith-perera/ExifRemover/releases/download/v1.0.0/Exif_Remover-x86_64.AppImage) and run it :
+download the [.AppImage](https://github.com/shamith-perera/ExifRemover/releases/download/v1.0.0/Exif_Remover-x86_64.AppImage) and run it (Portable) :
 ```
 chmod +x Exif_Remover-x86_64.AppImage
 ./Exif_Remover-x86_64.AppImage
 ```
 
 ### For Windows
-download and run the [.exe](https://github.com/shamith-perera/ExifRemover/releases/download/v1.0.0/exif_remover.exe) file (portable)
+download and run the [.exe](https://github.com/shamith-perera/ExifRemover/releases/download/v1.0.0/exif_remover.exe) file (Portable)
 
 
 
-### Alternatively, you can clone this repository and run the application directly (requires Python 3.x, PyQt5, and Pillow):
+### Running From the Source
+you can clone this repository and run the application directly (requires Python 3.x, PyQt5, and Pillow):
 
 ```
 git clone https://github.com/shamith-perera/ExifRemover.git
